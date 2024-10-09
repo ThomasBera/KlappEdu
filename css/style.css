@@ -1,0 +1,223 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 700px; /* Ajuste conforme necessário */
+  background-image: url('/img copy/background.webp');
+  background-size: cover;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.pt {
+  padding-bottom: 30px;
+  font-size: 48px;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 200px; /* Ajuste conforme necessário */
+  height: auto;
+}
+.logo img {
+  margin-left: 110px;
+  margin-right: 120px;
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    width: 130px; /* Reduz a logo em telas menores */
+  }
+}
+
+.nave nav {
+  background-color: #ffffff; /* Cor de fundo da navbar */
+}
+
+/* Botão customizado */
+.bt1 {
+  background-color: transparent;
+  border: 2px solid #191D6B;
+  text-decoration: none;
+  color: #191D6B;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  width: 130px;
+  padding: 8px 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.bt1:hover {
+  background-color: #191D6B;
+  color: white;
+  border-color: #191D6B;
+}
+
+/* Espaçamento entre a logo e os itens do menu */
+.logo {
+  margin-right: 30px; /* Adiciona espaço entre a logo e os itens do menu */
+}
+
+/* Espaçamento entre os itens do menu */
+.navbar-nav .nav-item {
+  margin-left: 10px; /* Adiciona espaçamento entre os itens do menu */
+}
+
+/* Adiciona margem ao botão "Saiba mais" */
+.bt1 {
+  margin-left: 20px; /* Ajusta o espaçamento do botão em relação aos outros itens */
+}
+
+.paragrafo1{
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.paragrafo2{
+  font-weight: lighter;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.tamanho{
+max-width: 570px;
+margin-top: 41px;
+margin-left: 30px;
+}
+
+.custom-list {
+  list-style-type: disc; /* Garantir bolinhas (bullets) */
+  padding-left: 20px; /* Adiciona espaço entre a borda e o texto */
+}
+
+.bt2 {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  border-radius:  30px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 150px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.bt2:hover {
+  background-color: #ffffff4a;
+  color: #ffffff;
+}
+.paragrafo3{
+  font-weight: 500;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.bt3{
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  border-radius:  30px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 25px;
+  width: 150px;
+}
+.bt3:hover {
+  background-color: #ffffff4a;
+  color: #ffffff;
+}
+
+.bt4{
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  border-radius:  30px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 40px;
+  width: 250px;
+}
+.bt4:hover {
+  background-color: #ffffff4a;
+  color: #ffffff;
+}
+
+.traco {
+  font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.traco::after {
+  content: "";
+  width: 100px; /* Largura do tracinho */
+  height: 4px; /* Altura do tracinho */
+  background-color: white; /* Cor do tracinho */
+  position: absolute;
+  left: 0;
+  bottom: -10px; /* Distância entre o texto e o tracinho */
+  margin-bottom: 10px;
+}
+
+.traco2 {
+  font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+.traco2::after {
+  content: "";
+  width: 100px; /* Largura do tracinho */
+  height: 4px; /* Altura do tracinho */
+  background-color: white; /* Cor do tracinho */
+  position: absolute;
+  left: 0;
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #191D6B;
+}
+
+/* Responsividade no Footer */
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+  }
+}
